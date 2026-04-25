@@ -1,5 +1,5 @@
-import ui.LoginFrame;
 import javax.swing.*;
+import ui.shared.LoginFrame;
 
 public class Main {
     public static void main(String[] args) {
