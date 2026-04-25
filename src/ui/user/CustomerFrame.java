@@ -1,14 +1,15 @@
-package ui;
+package ui.user;
 
 import dao.*;
-import model.*;
-import util.UIHelper;
-import javax.swing.*;
-import javax.swing.border.EmptyBorder;
-import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.math.BigDecimal;
 import java.util.List;
+import javax.swing.*;
+import javax.swing.border.EmptyBorder;
+import javax.swing.table.DefaultTableModel;
+import model.*;
+import ui.shared.LoginFrame;
+import util.UIHelper;
 
 public class CustomerFrame extends JFrame {
     private User currentUser;
